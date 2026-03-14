@@ -1,0 +1,10 @@
+/* Reset and clean slate for the application */
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

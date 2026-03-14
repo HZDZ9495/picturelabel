@@ -1,0 +1,12 @@
+{
+  "name": "picturelable",
+  "version": "1.0.0",
+  "description": "AI Image Auto Annotation Tool",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && node server.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "start:prod": "cd backend && NODE_ENV=production node server.js"
+  }
+}
